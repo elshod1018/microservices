@@ -1,0 +1,9 @@
+server:
+  port: 9090
+spring:
+  application:
+    name: post-details-service
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8671/eureka
